@@ -13,7 +13,7 @@ This project is still a work in progress. Below are plans to be implemented.
 -Implement Kalman filters to provide better predictions
 -Build the agent workflows and implement them
 -Further refinement of severity classifiction (ex. over 400ft)
-
+-Change from MapboxGL to Cesium for a true 3D Map.
 
 ## Features
 - WebSocket real-time streaming
