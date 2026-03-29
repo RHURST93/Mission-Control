@@ -31,9 +31,10 @@ This project is still a work in progress. Below are plans to be implemented.
 
 docker build -t fusion-service:latest services/fusion
 docker build -t frontend:latest frontend
+docker build -t simulator:latest services/simulator
 
 kubectl apply -f k8s/ --validate=false
-
+kubectl port-forward svc/fusion 8000:8000
 Open:
 http://localhost:30007
 
