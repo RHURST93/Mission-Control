@@ -1,0 +1,16 @@
+
+{
+  "name": "fusion-ui",
+  "version": "1.0.0",
+  "scripts": {"dev":"vite","build":"vite build"},
+  "dependencies": {
+    "react":"^18.2.0",
+    "react-dom":"^18.2.0",
+    "mapbox-gl":"^2.15.0",
+    "react-force-graph-2d": "^1.29.1",
+    "cesium": "^1.139.1"
+  },
+  "devDependencies":{
+    "vite":"^5.0.0"
+  }
+}
